@@ -1,0 +1,27 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: b7a7b734664fa8eb75e3ebea4bb3843775ec3eb1e31d1e6c63377fb054f69d30
+
+name:           app
+version:        0.1.0.0
+author:         Chris Stryczynski
+maintainer:     Chris Stryczynski
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+
+executable app
+  main-is: Main.hs
+  other-modules:
+      Paths_app
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.10 && <4.11
+    , hosc
+  default-language: Haskell2010
